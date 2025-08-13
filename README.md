@@ -62,6 +62,7 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
   - BERT (análise textual)
   - Wave2Vec (análise de áudio)
   - Multilayer Perceptron (classificação)
+  - Whisper (Transcrição textual)
 - **Bibliotecas e Frameworks**:
   - PyTorch ou TensorFlow
   - Transformers (Hugging Face)
@@ -90,13 +91,12 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 ## Benefícios Esperados
 - Detecção mais precisa de chamadas fraudulentas.
 - Redução do impacto financeiro e de danos à reputação de empresas e indivíduos.
-- Aplicação prática de tecnologias de **IA** para segurança digital.
+- Aplicação prática de tecnologias de IA para segurança digital.
 
 ## Público-alvo
 - Organizações que realizam atendimento por telefone e lidam com informações sensíveis.
 - Empresas de médio e grande porte, especialmente nos setores financeiro, telecomunicações e tecnologia.
-- **Áreas jurídicas**: departamentos de compliance, escritórios de advocacia e autoridades policiais que necessitam de provas técnicas para investigações e processos.
-- Necessidade de prevenir fraudes e se adequar a normas de segurança.
+- Áreas jurídicas: departamentos de compliance, escritórios de advocacia e autoridades policiais que necessitam de provas técnicas para investigações e processos.
 
 ---
 
@@ -107,10 +107,13 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 - **Veridas** – biometria de voz para autenticação.
 - **ID R&D** – detecção de *deepfakes* e falsificação de áudio.
 
-**Observações:**
-- Soluções existentes são eficazes, mas muitas não combinam análise textual e acústica.
-- Custos podem ser altos, limitando o acesso de pequenas empresas.
-- Há espaço para abordagens de código aberto com foco em pesquisa acadêmica.
+## Limitações das soluções existentes
+- Foco restrito: a maioria analisa apenas áudio ou biometria, não combinando texto e voz.  
+- Dependência da qualidade do áudio: ruídos ou gravações ruins podem afetar a detecção.  
+- Proprietário e pouco transparente: modelos fechados dificultam personalização e compreensão.  
+- Custos altos e escalabilidade limitada, exigindo hardware ou licenças caras.  
+- Integração complexa com sistemas internos.  
+- Atualização constante necessária devido à evolução rápida de *deepfakes*.  
 
 ---
 
