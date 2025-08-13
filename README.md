@@ -2,40 +2,125 @@
 
 Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
-Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Título do TCC** sob orientação do Professor **Nome do Orientador** e desenvolvido pelos seguintes alunos:
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Uma abordagem multimodal para detecção de phishing e deepfakes em chamadas telefônicas** sob orientação do Professor **Prof. Dr.
+Charles Henrique Porto Ferreira** e desenvolvido pelos seguintes alunos:
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Ana Beatriz Tavares Malheiro
+- Bruno Andwele Alves Antunes
 
 ## Resumo
 
-Apresente uma breve descrição da sua aplicação ou produto.
+Nos últimos anos, o avanço das tecnologias de inteligência artificial transformou profundamente o cenário da cibersegurança.  
+O **phishing**, uma técnica de engenharia social que explora vulnerabilidades humanas para obter informações confidenciais, tem se tornado cada vez mais sofisticado.  
+
+Com a popularização das técnicas de **síntese de voz** e **deepfake**, criminosos agora podem criar áudios falsos extremamente convincentes, capazes de imitar a voz de pessoas conhecidas e, assim, aumentar a eficácia dos golpes. Esse cenário representa um desafio significativo para sistemas de detecção tradicionais, que geralmente analisam apenas o conteúdo textual ou apenas o sinal de áudio.
+
+Este projeto propõe uma abordagem híbrida, combinando análise textual e análise de áudio bruto para detectar fraudes envolvendo *phishing* e *deepfake* de voz.  
+A solução utiliza modelos avançados como **BERT** para análise semântica de transcrições, **Wave2Vec** para extração de características do áudio e um **Multilayer Perceptron (MLP)** para classificação em quatro categorias distintas, permitindo uma detecção mais precisa e robusta.
+
 
 ## Introdução
  
-- Apresente o propósito do produto ou serviço e quais são os principais benefícios que ele oferece aos usuários.
-- Identifique os problemas ou necessidades que o produto ou serviço resolve ou satisfaz.
-- Liste as características e funcionalidades do seu produto ou serviço de forma detalhada.
-- Liste as tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC).
-- Apresente o contexto de uso dessa aplicação. (“Usuários, tarefas, equipamentos (hardware, software e materiais) e o ambiente físico e social no qual um produto é usado.”)
+##  Propósito e Benefícios
+O projeto tem como objetivo desenvolver uma solução automatizada para **detecção de golpes baseados em phishing e deepfakes de voz em chamadas telefônicas**.
 
-## Publico Alvo
+**Principais benefícios para os usuários:**
+- Aumento da **segurança** contra fraudes de engenharia social.
+- **Identificação** de chamadas suspeitas, permitindo ações preventivas.
+- Redução de prejuízos financeiros e vazamento de informações sigilosas.
+- Melhoria da confiança em comunicações corporativas e pessoais.
 
-- Determine qual o grupo específico de pessoas ou organizações para as quais este produto ou serviço é direcionado.
-- Descreva as caracteristicas demográficas, comportamentais, psicográficas ou geográficas deste público alvo que o torna mais propenso a se interessar pelo que está sendo oferecido neste projeto ou serviço.
+---
+
+## Problemas e Necessidades que o Produto Resolve
+- Golpistas utilizam **phishing** para induzir vítimas a fornecer dados confidenciais.
+- Avanços em **síntese de voz** e **deepfake** aumentam a credibilidade de ataques.
+- Falta de soluções integradas que analisem **tanto o conteúdo textual quanto o áudio bruto**.
+- Sistemas atuais de detecção tendem a focar apenas em um tipo de dado (texto ou áudio), reduzindo a eficácia.
+
+---
+
+## Características e Funcionalidades
+1. **Análise Textual de Transcrições**  
+   - Uso do modelo **BERT** para extrair o significado e padrões de linguagem suspeitos.
+2. **Análise de Áudio Bruto**  
+   - Uso do **Wave2Vec** para identificar características acústicas associadas a deepfakes.
+3. **Classificação Multiclasse**  
+   - Classificação das chamadas em quatro categorias:  
+     1. Golpe e *deepfake*  
+     2. Golpe sem *deepfake*  
+     3. Não é golpe, mas é *deepfake*  
+     4. Nem golpe, nem *deepfake*
+4. **Processamento Multimodal**  
+   - Combinação das saídas de análise textual e de áudio para aumentar a precisão.
+5. **Interface de Monitoramento**  
+   - Exibição dos resultados e histórico de chamadas analisadas.
+
+---
+
+## Tecnologias e Ferramentas Computacionais
+- **Linguagem de programação**: Python
+- **Modelos de IA**:
+  - BERT (análise textual)
+  - Wave2Vec (análise de áudio)
+  - Multilayer Perceptron (classificação)
+- **Bibliotecas e Frameworks**:
+  - PyTorch ou TensorFlow
+  - Transformers (Hugging Face)
+- **Ambiente de desenvolvimento**: Jupyter Notebook, VS Code
+- **Controle de versão**: Git/GitHub
+
+---
+
+## Contexto de Uso
+- **Usuários**:
+  - Equipes de segurança da informação
+  - Empresas com alto volume de chamadas de clientes
+  - Organizações governamentais e financeiras
+- **Tarefas**:
+  - Analisar chamadas recebidas
+  - Classificar chamadas como seguras ou suspeitas
+- **Equipamentos (hardware, software e materiais)**:
+  - Servidor ou máquina com GPU para treino e execução de modelos
+ 
+- **Ambiente físico e social**:
+  - Uso em centrais de atendimento, ambientes corporativos e plataformas de comunicação remota
+  - Possível integração com sistemas internos de segurança
+
+---
+
+## Benefícios Esperados
+- Detecção mais precisa de chamadas fraudulentas.
+- Redução do impacto financeiro e de danos à reputação de empresas e indivíduos.
+- Aplicação prática de tecnologias de **IA** para segurança digital.
+
+## Público-alvo
+- Organizações que realizam atendimento por telefone e lidam com informações sensíveis.
+- Empresas de médio e grande porte, especialmente nos setores financeiro, telecomunicações e tecnologia.
+- **Áreas jurídicas**: departamentos de compliance, escritórios de advocacia e autoridades policiais que necessitam de provas técnicas para investigações e processos.
+- Necessidade de prevenir fraudes e se adequar a normas de segurança.
+
+---
 
 ## Análise de concorrência
+**Principais soluções no mercado:**
+- **Pindrop** – detecção de fraude por voz usando análise acústica.
+- **Nuance Gatekeeper** – autenticação e detecção de fraude com biometria de voz.
+- **Veridas** – biometria de voz para autenticação.
+- **ID R&D** – detecção de *deepfakes* e falsificação de áudio.
 
-1. Identifique os principais concorrentes ou softwares mais utilizados pelo seu público-alvo.
-2. Colete informações sobre os concorrentes selecionados.
-3. Analise as características e funcionalidades dos concorrentes.
-4. Avalie a experiência do usuário (UX).
-5. Examine os preços e modelos de negócio.
-6. Pesquisa de satisfação do cliente e opiniões.
-7. Identifique padrões e tendências no mercado.
-8. Elabore relatórios e sumarize os resultados.
-9. Extraia pontos positivos e faça recomendações.
+**Observações:**
+- Soluções existentes são eficazes, mas muitas não combinam análise textual e acústica.
+- Custos podem ser altos, limitando o acesso de pequenas empresas.
+- Há espaço para abordagens de código aberto com foco em pesquisa acadêmica.
+
+---
+
+## Benefícios esperados
+- Melhorar a detecção de golpes com voz falsificada.
+- Apoiar investigações e processos jurídicos com evidências técnicas.
+- Contribuir para estudos acadêmicos na área de segurança digital e IA multimodal.
+- Oferecer uma base para sistemas mais robustos no futuro.
 
 ### Personas
 
