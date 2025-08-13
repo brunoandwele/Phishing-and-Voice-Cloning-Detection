@@ -18,8 +18,6 @@ Com a popularização das técnicas de **síntese de voz** e **deepfake**, crimi
 Este projeto propõe uma abordagem híbrida, combinando análise textual e análise de áudio bruto para detectar fraudes envolvendo *phishing* e *deepfake* de voz.  
 A solução utiliza modelos avançados como **BERT** para análise semântica de transcrições, **Wave2Vec** para extração de características do áudio e um **Multilayer Perceptron (MLP)** para classificação em quatro categorias distintas, permitindo uma detecção mais precisa e robusta.
 
-
-## Introdução
  
 ##  Propósito e Benefícios
 O projeto tem como objetivo desenvolver uma solução automatizada para **detecção de golpes baseados em phishing e deepfakes de voz em chamadas telefônicas**.
