@@ -81,10 +81,6 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
   - Classificar chamadas como seguras ou suspeitas
 - **Equipamentos (hardware, software e materiais)**:
   - Servidor ou máquina com GPU para treino e execução de modelos
- 
-- **Ambiente físico e social**:
-  - Uso em centrais de atendimento, ambientes corporativos e plataformas de comunicação remota
-  - Possível integração com sistemas internos de segurança
 
 ---
 
