@@ -119,75 +119,204 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 - Contribuir para estudos acadêmicos na área de segurança digital e IA multimodal.
 - Oferecer uma base para sistemas mais robustos no futuro.
 
-### Personas
-
-## Primária - Profissional de Segurança da Informação em uma empresa de médio porte
-
-O que vê:
-•	Ambiente corporativo com ferramentas de segurança.
-•	Ambiente corporativo com ferramentas de segurança.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Personas
-
-- Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o serviço ou poduto deve guardar?
-
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
-
-### Mapa de empatia
-
+## Personas
+A seguinte descrição de personas utiliza o modelo de Mapa de Empatia para detalhar os principais grupos de usuários da solução de detecção de phishing e *deepfakes* em chamadas telefônicas.  
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
-  Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+O objetivo é compreender as necessidades, dores, comportamentos e expectativas de cada persona, permitindo o desenvolvimento de uma ferramenta mais eficaz e alinhada ao contexto de uso.  
+As personas estão divididas em:  
 
-## Contexto de uso
-
-- Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
-- O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
-
-## Jornada do usuário
-
-- Criar uma narrativa para o o seu serviço ou poduto com o usuário.
-- Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+- **Primárias:** Segurança da Informação e Jurídico/Compliance, responsáveis por decisões estratégicas e validação jurídica.  
+- **Secundária:** Operadores de Call Center, usuários operacionais que interagem diretamente com chamadas suspeitas.  
+- **Terciária / Terceiros:** Usuários Comuns / Cidadãos, que utilizam a ferramenta para verificar áudios de forma voluntária.
 
 
-<!--
-## Análise de concorrência
 
-- Pesquise serviços ou podutos existentes atualmente que possam realizar o objetivo deste projeto.
-- Selecione pelo menos 3 serviços ou podutos diferentes.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
- -->
+
+
+### Primária - Profissional de Segurança da Informação em uma empresa de médio porte
+
+**O que vê:**
+
+- Ambiente corporativo com ferramentas de segurança.
+- Produção e analise de relatórios de incidentes e auditorias.
+- Concorrentes que já utilizam soluções avançadas de proteção.
+
+**O que ouve:**
+
+- Demandas sobre redução de riscos.
+- Reclamações de colaboradores sobre golpes e chamadas suspeitas.
+- Notícias sobre novas técnicas de deepfake e fraudes digitais.
+
+**O que diz e faz:**
+
+- Cobra soluções eficazes para mitigar riscos.
+- Participa de reuniões estratégicas sobre cibersegurança.
+- Defende investimentos em tecnologias emergentes.
+
+**O que pensa e sente:**
+
+- Preocupação constante em evitar brechas que prejudiquem a reputação da empresa.
+- Insegurança sobre até que ponto as soluções atuais dão conta das ameaças.
+- Desejo por inovação.
+
+**Dores:**
+
+- Soluções caras e difíceis de integrar com os sistemas existentes.
+- Baixa transparência nos relatórios de ferramentas concorrentes.
+- Pressão de compliance e risco jurídico em caso de falha.
+
+**Ganhos:**
+
+- Ter uma solução acessível, multimodal e auditável.
+- Redução significativa do risco de fraude por voz.
+- Capacidade de demonstrar resultados claros à diretoria.
+
+### Primária – Profissional da área Jurídica / Compliance
+
+**O que vê:**
+- Processos judiciais e arbitrais envolvendo fraude digital.  
+- Casos de seguros, cartões de crédito e bancos contestados por clientes.  
+- Relatórios técnicos inconclusivos sobre autenticidade de áudios em chamadas telefônica.  
+
+**O que ouve:**
+- Demandas de advogados, seguradoras e instituições financeiras por provas robustas.  
+- Relatos de clientes alegando clonagem de voz ou golpes por telefone.  
+- Pressão de juízes e reguladores por evidências técnicas confiáveis.  
+
+**O que diz e faz:**
+- Conduz investigações sobre se o golpe envolveu ou não *deepfake*.  
+- Solicita laudos periciais e relatórios de autenticidade de áudios.  
+- Usa evidências para sustentar defesa, acusação ou decisões de compliance.  
+
+**O que pensa e sente:**
+- Insegurança quanto à validade jurídica de tecnologias de detecção.  
+- Preocupação em evitar injustiças ou responsabilizações indevidas.  
+- Necessidade de ferramentas auditáveis e aceitas como prova legal.  
+
+**Dores:**
+- Falta de métodos confiáveis para diferenciar áudios reais de falsos.  
+- Risco de não conseguir comprovar fraude em processos de alto valor.  
+- Lacunas legais sobre uso de *deepfake detection* em tribunais.  
+
+**Ganhos:**
+- Evidências técnicas claras e auditáveis para uso jurídico.  
+- Redução de fraudes em seguros, bancos e contratos.   
+
+### Secundária – Operador de Call Center / Atendimento
+
+**O que vê:**
+- Sistemas de atendimento com dados de clientes.
+- Scripts de chamadas e metas de desempenho.
+- Clientes confusos ou irritados por fraudes e golpes.
+
+**O que ouve:**
+- Reclamações de clientes sobre tentativas de fraude.
+- Orientações de supervisores sobre como agir em situações suspeitas.
+- Pressão por agilidade e cumprimento de indicadores (tempo médio de atendimento, satisfação etc.).
+
+**O que diz e faz:**
+- Segue protocolos de validação de identidade, mas nem sempre consegue evitar golpes.
+- Reporta suspeitas de fraude ao time de segurança ou supervisão.
+- Tenta tranquilizar clientes em situações de risco.
+
+**O que pensa e sente:**
+- Sente-se inseguro quando não consegue diferenciar clientes reais de fraudadores.
+- Ansiedade por cometer erros que prejudiquem clientes ou a empresa.
+- Desejo de ferramentas que facilitem identificar tentativas de fraude sem aumentar a burocracia.
+
+**Dores:**
+- Processos manuais lentos que prejudicam a experiência do cliente.
+- Falta de clareza ou feedback imediato sobre a validade da chamada.
+- Pressão por produtividade x responsabilidade de detectar fraude.
+
+**Ganhos:**
+- Ferramenta automática que auxilia na validação do cliente.
+- Redução do estresse e da responsabilidade individual em detectar fraude.
+- Melhora da experiência do cliente e confiança no atendimento.
+
+
+### Terciária – Usuário Comum / Cidadão
+
+**O que vê:**
+- Aplicativos, redes sociais e grupos de mensagens com notícias sobre golpes digitais.  
+- Áudios suspeitos circulando em WhatsApp, e-mails e ligações.  
+- Alertas de bancos, seguradoras e empresas sobre possíveis fraudes.  
+
+**O que ouve:**
+- Relatos de amigos ou familiares que sofreram golpes.  
+- Notícias sobre fraudes telefônicas e *deepfakes* de voz.  
+- Mensagens ou ligações suspeitas solicitando dados pessoais ou financeiros.  
+
+**O que diz e faz:**
+- Questiona se uma ligação ou áudio é legítimo (“será que é o banco mesmo?”).  
+- Compartilha dúvidas com conhecidos e busca orientação online.  
+- Utiliza apps ou ferramentas para verificar a autenticidade do áudio.  
+
+**O que pensa e sente:**
+- Medo de ser enganado e ter prejuízo financeiro.  
+- Desconfiança crescente em relação a ligações não solicitadas.  
+- Desejo de se proteger de golpes sem precisar de conhecimentos técnicos avançados.  
+
+**Dores:**
+- Dificuldade em diferenciar chamadas reais de golpes sofisticados.  
+- Medo de cair em fraudes mesmo tomando cuidado.  
+- Falta de ferramentas acessíveis, simples e confiáveis.  
+
+**Ganhos:**
+- Aplicativo ou ferramenta que permita verificar áudios rapidamente.  
+- Tranquilidade e confiança ao atender ligações ou mensagens.  
+- Maior segurança financeira e pessoal em interações telefônicas ou digitais.
+
+
+## Contexto de Uso
+
+- **Ambiente:**
+  - Corporativo: Segurança da Informação e Jurídico/Compliance em empresas.  
+  - Operacional: Call centers que lidam com clientes e verificações de identidade.  
+  - Público geral: usuários comuns validando áudios suspeitos em dispositivos móveis.  
+
+- **Contexto social, econômico e cultural:**
+  - Empresas precisam cumprir LGPD/GDPR e proteger clientes contra fraudes.  
+  - Usuários finais expostos a golpes digitais sofisticados, buscando confiança em transações.  
+  - Crescente preocupação social sobre deepfakes e fraudes por telefone.  
+
+- **Informações que o sistema deve guardar antes da interação:**
+  - Histórico de áudios e chamadas analisadas.  
+  - Dados básicos do cliente ou usuário (ID, número da chamada, data/hora).  
+  - Parâmetros de detecção, limiares de confiabilidade e logs de análise.  
+
+- **Situação do ambiente durante a interação:**
+  - Call centers atendendo clientes em tempo real.  
+  - Profissionais de segurança/jurídico avaliando casos suspeitos.  
+  - Usuários finais recebendo alertas ou validando áudios em seus dispositivos.  
+
+---
+
+## Jornada do Usuário
+
+1. **Início da interação:**
+   - Usuário recebe áudio suspeito ou chamada.  
+   - Abre a ferramenta de detecção de phishing / deepfake.  
+
+2. **Execução da tarefa:**
+   - Faz upload do áudio ou insere informações da chamada.  
+   - Sistema realiza análise multimodal:  
+     - Transcrição e análise textual via BERT.  
+     - Análise de áudio bruto via Wave2Vec.  
+   - Modelo MLP processa resultados e classifica a ocorrência.  
+
+3. **Resultados e feedback:**
+   - Indica se o áudio é suspeito ou legítimo e se há indícios de *deepfake*.  
+   - Gera relatórios para decisão imediata (usuário comum) ou auditoria jurídica (profissionais primários).  
+
+4. **Conclusão da tarefa:**
+   - Usuário toma decisão: bloqueia/aprova, reporta ou encaminha para investigação.  
+   - Histórico e logs ficam armazenados para futuras consultas ou processos legais.  
+
+
+
+
  
 ## Coleta de dados
 
