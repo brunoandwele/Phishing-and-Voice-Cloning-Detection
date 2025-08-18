@@ -121,6 +121,29 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 
 ### Personas
 
+## Primária - Profissional de Segurança da Informação em uma empresa de médio porte
+
+O que vê:
+•	Ambiente corporativo com ferramentas de segurança.
+•	Ambiente corporativo com ferramentas de segurança.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Personas
+
 - Descreva as personas que irão interagir com a aplicação ou produto. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
 - Quais informações sobre o usuário o serviço ou poduto deve guardar?
 
