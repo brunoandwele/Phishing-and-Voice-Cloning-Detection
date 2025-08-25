@@ -94,16 +94,40 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 - Empresas de médio e grande porte, especialmente nos setores financeiro, telecomunicações e tecnologia.
 - Áreas jurídicas: departamentos de compliance, escritórios de advocacia e autoridades policiais que necessitam de provas técnicas para investigações e processos.
 
----
-
 ## Análise de concorrência
 **Principais soluções no mercado:**
-- **Pindrop** – detecção de fraude por voz usando análise acústica.
-- **Nuance Gatekeeper** – autenticação e detecção de fraude com biometria de voz.
-- **Veridas** – biometria de voz para autenticação.
-- **ID R&D** – detecção de *deepfakes* e falsificação de áudio.
+-### **Pindrop**  
+- **Foco**: Antifraude, autenticação de chamadas e detecção de deepfakes.  
+- **Preços**:  
+  - US$ 100k – Call Verification (1M chamadas/ano)  
+  - US$ 275k – Anti-Fraud (1–2M chamadas/ano)  
+  - US$ 325k – Anti-Fraud + Deepfake (1–2M chamadas/ano)  
+- **Feedbacks**: Gartner Peer Insights – bom desempenho na detecção de fraude, porém integração complexa.  
+- **Pontos Positivos**: Alta acurácia (99,2% em materiais de marketing), clientes enterprise.  
+- **Pontos Negativos**: Custos elevados, rollout complexo.  
 
-## Limitações das soluções existentes
+### **Nuance Gatekeeper (Microsoft)**  
+- **Foco**: Biometria de voz (ativa e passiva), detecção de fraude e fala sintética.  
+- **Preços**: Sob cotação (modelo por usuário).  
+- **Feedbacks**: Diretórios como TrustRadius e G2 – usado em escala por contact centers.  
+- **Pontos Positivos**: Autenticação em ~1s, escala comprovada em IVR.  
+- **Pontos Negativos**: Preço pouco transparente, integração com legados pode ser complexa.  
+
+### **Veridas**  
+- **Foco**: Autenticação biométrica de voz em ~3 segundos.  
+- **Preços**: Sob cotação (disponibiliza ROI calculator).  
+- **Feedbacks**: Gartner Peer Insights e Capterra – avaliações positivas em usabilidade.  
+- **Pontos Positivos**: Integrações nativas com cloud contact centers, validação rápida.  
+- **Pontos Negativos**: Pouca transparência nos preços, benchmarks limitados.  
+
+### **ID R&D (Mitek)**  
+- **Foco**: Detecção de deepfakes, falsificação de áudio e liveness multimodal.  
+- **Preços**: Sob cotação (SDKs e containers).  
+- **Feedbacks**: Reconhecido em testes independentes (NIST/DHS).  
+- **Pontos Positivos**: Destaque em testes de liveness e PAD, detecção de ataques por injeção.  
+- **Pontos Negativos**: Custos não divulgados, exige conhecimento técnico para integração.  
+
+## Limitações gerais das soluções existentes 
 - Foco restrito: a maioria analisa apenas áudio ou biometria, não combinando texto e voz.  
 - Dependência da qualidade do áudio: ruídos ou gravações ruins podem afetar a detecção.  
 - Proprietário e pouco transparente: modelos fechados dificultam personalização e compreensão.  
@@ -111,7 +135,10 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 - Integração complexa com sistemas internos.  
 - Atualização constante necessária devido à evolução rápida de *deepfakes*.  
 
----
+## Tendências de Mercado  
+- Tentativas de fraude com deepfakes cresceram **+1300% em 2024**.  
+- Regulamentações como o **EU AI Act** exigem rotulagem de conteúdos sintéticos.  
+- Golpes de alto impacto envolvendo **áudio e vídeo falsificados** vêm se tornando mais frequentes. 
 
 ## Benefícios esperados
 - Melhorar a detecção de golpes com voz falsificada.
