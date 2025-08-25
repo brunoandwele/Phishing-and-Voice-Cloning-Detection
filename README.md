@@ -154,8 +154,7 @@ O objetivo é compreender as necessidades, dores, comportamentos e expectativas 
 As personas estão divididas em:  
 
 - **Primárias:** Segurança da Informação e Jurídico/Compliance, responsáveis por decisões estratégicas e validação jurídica.  
-- **Secundária:** Operadores de Call Center, usuários operacionais que interagem diretamente com chamadas suspeitas.  
-- **Terciária / Terceiros:** Usuários Comuns / Cidadãos, que utilizam a ferramenta para verificar áudios de forma voluntária.
+- **Secundária:** Operadores de Call Center, usuários operacionais que interagem diretamente com chamadas suspeitas.Usuários Comuns / Cidadãos, que utilizam a ferramenta para verificar áudios de forma voluntária.
 
 
 
