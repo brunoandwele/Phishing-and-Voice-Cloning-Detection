@@ -96,7 +96,7 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
 
 ## Análise de concorrência
 **Principais soluções no mercado:**
--### **Pindrop**  
+### **Pindrop**  
 - **Foco**: Antifraude, autenticação de chamadas e detecção de deepfakes.  
 - **Preços**:  
   - US$ 100k – Call Verification (1M chamadas/ano)  
@@ -154,11 +154,7 @@ O objetivo é compreender as necessidades, dores, comportamentos e expectativas 
 As personas estão divididas em:  
 
 - **Primárias:** Segurança da Informação e Jurídico/Compliance, responsáveis por decisões estratégicas e validação jurídica.  
-- **Secundária:** Operadores de Call Center, usuários operacionais que interagem diretamente com chamadas suspeitas.Usuários Comuns / Cidadãos, que utilizam a ferramenta para verificar áudios de forma voluntária.
-
-
-
-
+- **Secundária:** Operadores de Call Center, usuários operacionais que interagem diretamente com chamadas suspeitas.
 
 ### Primária - Profissional de Segurança da Informação em uma empresa de médio porte
 
@@ -261,40 +257,6 @@ As personas estão divididas em:
 - Redução do estresse e da responsabilidade individual em detectar fraude.
 - Melhora da experiência do cliente e confiança no atendimento.
 
-
-### Terciária – Usuário Comum / Cidadão
-
-**O que vê:**
-- Aplicativos, redes sociais e grupos de mensagens com notícias sobre golpes digitais.  
-- Áudios suspeitos circulando em WhatsApp, e-mails e ligações.  
-- Alertas de bancos, seguradoras e empresas sobre possíveis fraudes.  
-
-**O que ouve:**
-- Relatos de amigos ou familiares que sofreram golpes.  
-- Notícias sobre fraudes telefônicas e *deepfakes* de voz.  
-- Mensagens ou ligações suspeitas solicitando dados pessoais ou financeiros.  
-
-**O que diz e faz:**
-- Questiona se uma ligação ou áudio é legítimo (“será que é o banco mesmo?”).  
-- Compartilha dúvidas com conhecidos e busca orientação online.  
-- Utiliza apps ou ferramentas para verificar a autenticidade do áudio.  
-
-**O que pensa e sente:**
-- Medo de ser enganado e ter prejuízo financeiro.  
-- Desconfiança crescente em relação a ligações não solicitadas.  
-- Desejo de se proteger de golpes sem precisar de conhecimentos técnicos avançados.  
-
-**Dores:**
-- Dificuldade em diferenciar chamadas reais de golpes sofisticados.  
-- Medo de cair em fraudes mesmo tomando cuidado.  
-- Falta de ferramentas acessíveis, simples e confiáveis.  
-
-**Ganhos:**
-- Aplicativo ou ferramenta que permita verificar áudios rapidamente.  
-- Tranquilidade e confiança ao atender ligações ou mensagens.  
-- Maior segurança financeira e pessoal em interações telefônicas ou digitais.
-
-
 ## Contexto de Uso
 
 - **Ambiente:**
@@ -316,8 +278,6 @@ As personas estão divididas em:
   - Call centers atendendo clientes em tempo real.  
   - Profissionais de segurança/jurídico avaliando casos suspeitos.  
   - Usuários finais recebendo alertas ou validando áudios em seus dispositivos.  
-
----
 
 ## Jornada do Usuário
 
