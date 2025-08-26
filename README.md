@@ -104,14 +104,14 @@ O projeto tem como objetivo desenvolver uma solução automatizada para **detec�
   - US$ 325k – Anti-Fraud + Deepfake (1–2M chamadas/ano)  
 - **Feedbacks**: Gartner Peer Insights – bom desempenho na detecção de fraude, porém integração complexa.  
 - **Pontos Positivos**: Alta acurácia (99,2% em materiais de marketing), clientes enterprise.  
-- **Pontos Negativos**: Custos elevados, rollout complexo.  
+- **Pontos Negativos**: Custos elevados.  
 
 ### **Nuance Gatekeeper (Microsoft)**  
 - **Foco**: Biometria de voz (ativa e passiva), detecção de fraude e fala sintética.  
 - **Preços**: Sob cotação (modelo por usuário).  
 - **Feedbacks**: Diretórios como TrustRadius e G2 – usado em escala por contact centers.  
 - **Pontos Positivos**: Autenticação em ~1s, escala comprovada em IVR.  
-- **Pontos Negativos**: Preço pouco transparente, integração com legados pode ser complexa.  
+- **Pontos Negativos**: Preço pouco transparente, integração com sistemas legados pode ser complexa.  
 
 ### **Veridas**  
 - **Foco**: Autenticação biométrica de voz em ~3 segundos.  
