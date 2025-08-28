@@ -10,46 +10,45 @@ Charles Henrique Porto Ferreira** e desenvolvido pelos seguintes alunos:
 - Ana Beatriz Tavares Malheiro
 - Bruno Andwele Alves Antunes
 
-
-# **Entrega 1 (Concluído)
+******
+# Entrega 1 (Concluído)
 
 **1\) Conhecendo o Problema** 
-
 1.1) Membros de Equipe (nome completo e número de matrícula):
 
-	•	Ana Beatriz Tavares Malheiro – Matrícula: [24.122.019-3]
-	•	Bruno Andwele Alves Antunes – Matrícula: [22.125.070-7]
-
+Ana Beatriz Tavares Malheiro – Matrícula: [24.122.019-3] <br>
+Bruno Andwele Alves Antunes – Matrícula: [22.125.070-7]
+***
 1.2) Título Original do TCC:<br>
 Uma Abordagem Multimodal para Detecção de Phishing e Deepfakes em Chamadas Telefônicas
-
+***
 1.3) Nome do orientador:<br>
 Prof. Dr. Charles Henrique Porto Ferreira
-
+***
 1.4) Previsto desenvolver Interface? ( X ) Sim     (   ) Não
-
+***
 1.5) Objetivo do trabalho?<br>
 Desenvolver um algoritmo capaz de detectar automaticamente casos de phishing e deepfakes em chamadas telefônicas por meio da análise do áudio bruto. O sistema deverá classificar os áudios em quatro categorias:<br>
 	•	Golpe e deepfake<br>
 	•	Não é golpe, mas é deepfake<br>
 	•	Golpe, mas não é deepfake<br>
 	•	Nem golpe, nem deepfake<br>
-
+***
 1.6) Qual o produto final? <br>
 Um algoritmo que utiliza técnicas de Machine Learning e modelos de linguagem (LLMs) para análise de áudios suspeitos.<br>
-
+***
 1.7) Quem é o usuário final deste produto?<br>
 A definir.<br>
 Há a possibilidade de uso por profissionais do setor jurídico ou de segurança da informação, especialmente em processos judiciais ou investigações, já que a análise não é realizada em tempo real, mas de forma posterior.<br>
-
+***
 1.8) O que o usuário recebe de benefício ao usar esse produto? <br>
 A ferramenta visa fortalecer a cibersegurança, oferecendo suporte na identificação de fraudes por voz e manipulações sintéticas, contribuindo para a prevenção de golpes e a verificação da autenticidade de conteúdos de áudio.<br>
-
+***
 1.9) Quais as funcionalidades da ferramenta (visão do usuário)?<br>
 	•	Inserção (upload) de áudios suspeitos<br>
 	•	Visualização da classificação final, com base nas quatro possibilidades descritas<br>
 	•	Interface intuitiva e de fácil uso para usuários não técnicos<br>
-
+***
 1.10) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC)?<br>
 	•	Análise de Áudio / Machine Learning:<br>
 	•	Whisper (OpenAI)<br>
@@ -57,43 +56,71 @@ A ferramenta visa fortalecer a cibersegurança, oferecendo suporte na identifica
 	•	Wav2Vec 2.0<br>
 	•	MLP (Perceptron Multicamadas)<br>
 	•	Desenvolvimento da Interface: A definir<br>
-
+***
 1.11) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que professor explicou na sala)<br>
 A aplicação se insere no contexto de cibersegurança, com foco na identificação de fraudes e manipulações de voz em ambientes digitais. Pode ser usada como ferramenta auxiliar por profissionais de segurança da informação, órgãos judiciais ou empresas que lidam com verificação de identidade via áudio.<br>
-
-# **Entrega 2 (Concluído)
+***
+# Entrega 2 - (Concluído)
 
 **\[1 solução completa por pessoa da equipe\]**
 
 **Dica: fator mais importante desta entrega é a equipe conseguir identificar e documentar prints de telas de interfaces concorrentes (ou interfaces representativas para o público alvo). Esses prints serão usados na fase de caracterização de padrões, affordances, heurísticas, etc.**
 
 1) **Público Alvo**
+   - Organizações que realizam atendimento por telefone e lidam com informações sensíveis.<br>
+    -  Empresas de médio e grande porte, especialmente nos setores financeiro, telecomunicações e tecnologia.<br>
+    - Áreas jurídicas: departamentos de compliance, escritórios de advocacia e autoridades policiais que necessitam de provas técnicas para investigações e processos.<br>
 
-2) **Análise de Concorrência (quando identificado concorrência \- ATENÇÃO: CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA)**  
-1. **Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):**
+2) **Análise de Concorrência (quando identificado concorrência \- ATENÇÃO: CONCORRENTE NÃO É IDÊNTICO E SIM ATUANDO NA MESMA ÁREA)** <br>
+**Principais concorrentes mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração):
+   **Principais soluções no mercado:**
+- #### **Pindrop**  [https://www.pindrop.com]<br>
+	- É um sistema que faz detecção de deepfakes em tempo real durante ligações de video chamada. Ele funciona a partir da adição de um participante na chamada que representa o Pindrop. Esse novo "Participante", que é a inteligência artificial do Pindrop, fica analisando os participantes e avisa quando há algum participante suspeito<br>
+ 
+	<img width="1218" height="748" alt="image" src="https://github.com/user-attachments/assets/f3a86fc6-dd71-4df5-b173-24ffe9f0273a" />
 
-2. **Características e funcionalidades dos concorrentes:**
 
-3. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+- #### **Nuance Gatekeeper (Microsoft)** [https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/03/21/improve-customer-loyalty-and-reduce-fraud-with-nuance-gatekeeper/] 
+    - Sistema de autenticação online por voz. Serve para garantir a autenticidade das pessoas antes de realizarem alguma ligação.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6222ad80-e17e-4ccb-947e-388ab1fd123e" width="50%" />
+  <img src="https://github.com/user-attachments/assets/953e378e-176c-4ab1-a53c-731485ec68a1" width="50%" />
+</p>
 
-4. **Preços e modelos de negócio:**
+3. **Características e funcionalidades dos concorrentes:**
 
-5. **Padrões e tendências no mercado:**
+- #### **Pindrop**  
+    - **Foco**: Antifraude, autenticação de chamadas e detecção de deepfakes.  
+    - **Preços**:  
+  - US$ 100k – Call Verification (1M chamadas/ano)  
+  - US$ 275k – Anti-Fraud (1–2M chamadas/ano)  
+  - US$ 325k – Anti-Fraud + Deepfake (1–2M chamadas/ano)  
+    - **Feedbacks**: Gartner Peer Insights – bom desempenho na detecção de fraude, porém integração complexa.  
+    - **Pontos Positivos**: Alta acurácia (99,2% em materiais de marketing), clientes enterprise.  
+    - **Pontos Negativos**: Custos elevados.  
 
-**Referências:**
+- #### **Nuance Gatekeeper (Microsoft)**  
+    - **Foco**: Biometria de voz (ativa e passiva), detecção de fraude e fala sintética.  
+    - **Preços**: Sob cotação (modelo por usuário).  
+    - **Feedbacks**: Diretórios como TrustRadius e G2 – usado em escala por contact centers.  
+    - **Pontos Positivos**: Autenticação em ~1s, escala comprovada em IVR.  
+    - **Pontos Negativos**: Preço pouco transparente, integração com sistemas legados pode ser complexa.   
 
-3) **Análise de Concorrência BASEADO NOS SOFTWARES QUE O PÚBLICO ALVO USA**   
-6. **Principais softwares mais utilizados pelo seu público-alvo (link, descrição e imagens de ilustração). SOFTWARES que seu público mais utiliza no dia a dia, para fazer suas tarefas:**
+4. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+- #### **Pindrop**  
+    - Usuários relatam que 
 
-7. **Características e funcionalidades dos Softwares:**
+- #### **Nuance Gatekeeper (Microsoft)**  
+    - **Foco**: Biometria de voz (ativa e passiva), detecção de fraude e fala sintética.  
+    - **Preços**: Sob cotação (modelo por usuário).  
+    - **Feedbacks**: Diretórios como TrustRadius e G2 – usado em escala por contact centers.  
+    - **Pontos Positivos**: Autenticação em ~1s, escala comprovada em IVR.  
+    - **Pontos Negativos**: Preço pouco transparente, integração com sistemas legados pode ser complexa.
+   
 
-8. **Experiência do usuário (UX) e pesquisa de satisfação do cliente e opiniões:**
+6. **Padrões e tendências no mercado:**
 
-9. **Preços e modelos de negócio:**
-
-10. **Padrões e tendências no mercado:**
-
-**Referências:**
+A tendência e utilizar sistemas de detecção de deepfakes em qualquer forma de áudio utilizado nos dispositivos. Tanto para gravações como áudios coletados em tempo real como por exemplo em ligações
 
 # **Entrega 3 (data) \[em andamento/concluído\]**
 
