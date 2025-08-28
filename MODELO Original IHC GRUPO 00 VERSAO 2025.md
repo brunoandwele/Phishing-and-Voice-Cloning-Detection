@@ -1,40 +1,66 @@
 **Projeto de IHC**
 
-**Projeto XX**
+**Projeto Uma abordagem multimodal para detecção de phishing e deepfakes em chamadas telefônicas**
 
-**\<colocar o título do projeto\>**
+Projeto apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interface Humano-Computador (CC8122) do curso de Ciencia da Computação, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
-**Membros de Equipe:**
+Este projeto se baseia no Trabalho de Conclusão de Curso (TCC) entitulado **Uma abordagem multimodal para detecção de phishing e deepfakes em chamadas telefônicas** sob orientação do Professor **Prof. Dr.
+Charles Henrique Porto Ferreira** e desenvolvido pelos seguintes alunos:
 
-# **Entrega 1 (data) \[em andamento/concluído\]**
+- Ana Beatriz Tavares Malheiro
+- Bruno Andwele Alves Antunes
 
-# 
+
+# **Entrega 1 (Concluído)
 
 **1\) Conhecendo o Problema** 
 
 1.1) Membros de Equipe (nome completo e número de matrícula):
 
+	•	Ana Beatriz Tavares Malheiro – Matrícula: [24.122.019-3]
+	•	Bruno Andwele Alves Antunes – Matrícula: [22.125.070-7]
+
 1.2) Título Original do TCC:
+Uma Abordagem Multimodal para Detecção de Phishing e Deepfakes em Chamadas Telefônicas
 
 1.3) Nome do orientador:
+Prof. Dr. Charles Henrique Porto Ferreira
 
-1.4) Previsto desenvolver Interface? (   ) Sim     (   ) Não
+1.4) Previsto desenvolver Interface? ( X ) Sim     (   ) Não
 
 1.5) Objetivo do trabalho?
+Desenvolver um algoritmo capaz de detectar automaticamente casos de phishing e deepfakes em chamadas telefônicas por meio da análise do áudio bruto. O sistema deverá classificar os áudios em quatro categorias:
+	•	Golpe e deepfake
+	•	Não é golpe, mas é deepfake
+	•	Golpe, mas não é deepfake
+	•	Nem golpe, nem deepfake
 
 1.6) Qual o produto final? 
+Um algoritmo que utiliza técnicas de Machine Learning e modelos de linguagem (LLMs) para análise de áudios suspeitos.
 
 1.7) Quem é o usuário final deste produto?
+A definir. Há a possibilidade de uso por profissionais do setor jurídico ou de segurança da informação, especialmente em processos judiciais ou investigações, já que a análise não é realizada em tempo real, mas de forma posterior.
 
 1.8) O que o usuário recebe de benefício ao usar esse produto? 
+A ferramenta visa fortalecer a cibersegurança, oferecendo suporte na identificação de fraudes por voz e manipulações sintéticas, contribuindo para a prevenção de golpes e a verificação da autenticidade de conteúdos de áudio.
 
 1.9) Quais as funcionalidades da ferramenta (visão do usuário)?
+	•	Inserção (upload) de áudios suspeitos
+	•	Visualização da classificação final, com base nas quatro possibilidades descritas
+	•	Interface intuitiva e de fácil uso para usuários não técnicos
 
 1.10) Quais tecnologias e ferramentas computacionais que pretendem usar neste projeto (TCC)?
+	•	Análise de Áudio / Machine Learning:
+	•	Whisper (OpenAI)
+	•	BERT (modelo de linguagem)
+	•	Wav2Vec 2.0
+	•	MLP (Perceptron Multicamadas)
+	•	Desenvolvimento da Interface: A definir
 
 1.11) Qual é o contexto de uso dessa aplicação? (esse já é um conceito de IHC que professor explicou na sala)
+A aplicação se insere no contexto de cibersegurança, com foco na identificação de fraudes e manipulações de voz em ambientes digitais. Pode ser usada como ferramenta auxiliar por profissionais de segurança da informação, órgãos judiciais ou empresas que lidam com verificação de identidade via áudio.
 
-# **Entrega 2  (data) \[em andamento/concluído\]**
+# **Entrega 2 (Concluído)
 
 **\[1 solução completa por pessoa da equipe\]**
 
